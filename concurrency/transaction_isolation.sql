@@ -85,6 +85,3 @@ COMMIT; -- Session B
 SELECT balance FROM accounts WHERE name = 'Alice'; -- Session A; balance = 300
 SELECT balance FROM accounts WHERE name = 'Alice'; -- Session B; [25P02] ERROR: current transaction is aborted, commands ignored until end of transaction block
 
-
-
-
